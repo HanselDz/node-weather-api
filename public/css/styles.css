@@ -1,0 +1,77 @@
+body {
+    background: url('/img/futuristic.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px!important;
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+       font-size: 15px!important;
+  }
+  
+  ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 15px!important;
+  }
+
+.hanson-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(194, 197, 204, 0.75);
+    box-sizing: border-box;
+    box-shadow: 0 1em 1.66em #000;
+    padding: 2%;
+}
+
+
+.submit {
+    padding-top: 1em;
+}
+
+button{
+    background: black;
+    color: white;
+    border: 2px solid;
+    line-height: 1;
+
+}
+
+
+
+.primary {
+    margin: 1em 10em;
+    
+}
+
+.primary:hover,
+.primary:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.title{
+    text-align: center;
+}
+
+
+
+h1, label{
+  color: black;
+}
+
+input{
+    width: 25em;
+}
+
+h6{
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+a, a:hover {
+    color:black;
+}
