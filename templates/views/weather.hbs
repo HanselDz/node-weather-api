@@ -17,16 +17,23 @@
     {{>header}}
 <body>
     
-    <div class="main-content">
-        <p>Use this site to get your weather!</p>
+    <div class="weather-content">
+        <div class="weather-form">
+        <h1>Type in your location for the weather!</h1>
 
-        <form>
+        <form class="weather-input">
             <input placeholder="Location">
             <button>Search</button>
         </form>
+        </div>
 
-        <p id="message-1"></p>
-        <p id="message-2"></p>
+        <div class="loading-results">
+        <h4 class="loading" id="loading"></h4>
+        <h1 class="weather-temperature" id="weather-temperature"></h1>
+        <h3 class ="weather-location" id="weather-location"></h3>
+        <h4 class="weather-description" id="weather-description"></h4>
+        </div>
+
     </div>
 
     {{>footer}}

@@ -29,22 +29,22 @@ body {
 }
 
 
-.submit {
-    padding-top: 1em;
-}
+
 
 button{
-    background: black;
+    border: 1px solid #888888;
+    background: #888888;
     color: white;
-    border: 2px solid;
-    line-height: 1;
+    line-height: 2;
+    cursor: pointer;
+    padding: 8px;
 
 }
 
 
 
 .primary {
-    margin: 1em 10em;
+    margin: 0.5em 37% 1.5em;
     
 }
 
@@ -55,12 +55,6 @@ button{
 
 .title{
     text-align: center;
-}
-
-
-
-h1, label{
-  color: black;
 }
 
 input{
