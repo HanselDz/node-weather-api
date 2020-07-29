@@ -38,7 +38,13 @@ button{
     line-height: 2;
     cursor: pointer;
     padding: 8px;
+    transition: color 0.4s linear;
 
+}
+
+button:hover{
+    background: white;
+    color: #888888;
 }
 
 
